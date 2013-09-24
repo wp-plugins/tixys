@@ -20,7 +20,7 @@
             <th><label for='tixys-select-station-from-<?php echo $formId ?>'><?php _e('From:', 'tixys') ?></label></th>
             <td><select class='tixys-select-station-from' id='tixys-select-station-from-<?php echo $formId ?>' name='from'>
 
-                <option value='0'><?php _e("– Please select –") ?></option>
+                <option value='0'><?php _e("– Please select –", 'tixys') ?></option>
                 <?php $list = ($to) ? $backend->get_result('to', $to) : $backend->get_result('start'); foreach ($list as $station) : ?>
                     <option value='<?php echo $station->id; ?>'><?php echo tixys_out($station->name); ?></option>
                 <?php endforeach ?>
@@ -36,7 +36,7 @@
             <td><select class='tixys-select-station-to' id='tixys-select-station-to-<?php echo $formId ?>' name='to'<?php if (!$from) echo " disabled='disabled'" ?>>
 
                 <?php if ($from) : ?>
-                <option value='0'><?php _e("– Please select –") ?></option>
+                <option value='0'><?php _e("– Please select –", 'tixys') ?></option>
                     <?php $list = $backend->get_result('from', $from); foreach ($list as $station) : ?>
                         <option value='<?php echo $station->id; ?>'><?php echo tixys_out($station->name); ?></option>
                     <?php endforeach ?>

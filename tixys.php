@@ -20,7 +20,7 @@ function tixys_activate()
 
 function tixys_init()
 {
-    load_plugin_textdomain('tixys', false, 'wp-content/plugins/tixys');
+    load_plugin_textdomain('tixys', false, 'tixys');
 }
 
 
@@ -101,7 +101,7 @@ function tixys_generate_form($attr, $content=null, $code="")
         $backend = new tixys_backend($options);
 
         wp_enqueue_script('tixys-lib', "$urlbase/tx.lib.js");
-        wp_enqueue_script('tixys-form', "$urlbase/tx.page.src.js");
+        wp_enqueue_script('tixys-form', "$urlbase/tx.page.js");
         wp_enqueue_style('tixys-form', "$urlbase/tx.form.css");
 
         if ($datepicker)
