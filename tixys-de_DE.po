@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tixys WordPress plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-24 21:06+0200\n"
+"PO-Revision-Date: 2013-09-24 01:02+0200\n"
+"Last-Translator: Alex Günsche <l10n@tixys.com>\n"
+"Language-Team: Alex Günsche <l10n@tixys.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: tixys.php:68
+msgid "The settings have been updated."
+msgstr "Die Einstellungen wurden aktualisiert."
+
+#: tixys.php:69
+msgid "There was an error, settings could not be saved. Please make sure to enter correct values."
+msgstr "Ein Fehler ist aufgetreten, die Einstellungen konnten nicht gespeichert werden. Bitte stellen Sie sicher, dass die Eingaben korrekt sind."
+
+#: adminpage.php:9
+msgid "Tixys settings"
+msgstr "Tixys-Einstellungen"
+
+#: adminpage.php:14
+msgid "Tixys site ID"
+msgstr "Tixys-Site-ID"
+
+#: adminpage.php:17
+msgid "Your shop's Tixys site. If you don't know, refer to the Tixys support."
+msgstr "Die Site-ID Ihres Tixys-Shops. Falls Sie diese nicht kennen, wenden Sie sich an den Tixys-Support."
+
+#: adminpage.php:21
+msgid "Tixys path"
+msgstr "Tixys-Pfad"
+
+#: adminpage.php:24
+msgid "Your shop's Tixys path. If you don't know, refer to the Tixys support."
+msgstr "Der Pfad Ihres Tixys-Shops. Falls Sie diesen nicht kennen, wenden Sie sich an den Tixys-Support."
+
+#: adminpage.php:32
+msgid "Submit Changes"
+msgstr "Änderungen speichern"
+
+#: form.php:20
+msgid "From:"
+msgstr "Von:"
+
+#: form.php:23 form.php:39
+msgid "– Please select –"
+msgstr "– Bitte wählen –"
+
+#: form.php:35
+msgid "To:"
+msgstr "Nach:"
+
+#: form.php:52
+msgid "Day:"
+msgstr "Datum:"
+
+#: form.php:75
+msgid "Search rides and book a ticket »"
+msgstr "Fahrten suchen und Tickets kaufen »"
+
+#: form.php:80
+msgid "Please note: You will be forwarded to the <a href='https://www.tixys.com/' target='_blank'>Tixys booking plattform</a>."
+msgstr "Hinweis: Sie werden auf das <a href='https://www.tixys.com/' target='_blank'>Buchungsportal Tixys</a> weitergeleitet."
