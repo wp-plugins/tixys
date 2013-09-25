@@ -77,7 +77,7 @@
         </tr>
         <tr>
             <th></th>
-            <td colspan='2' class='tixys-home'><?php _e("Please note: You will be forwarded to the <a href='https://www.tixys.com/' target='_blank'>Tixys booking plattform</a>.", 'tixys') ?></td>
+            <td colspan='2' class='tixys-home'><?php _e("Please note: You will be forwarded to our <a href='http://www.tixys.com/' target='_blank'>booking site</a>.", 'tixys') ?></td>
         </tr>
     </table>
 </form>

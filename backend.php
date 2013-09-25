@@ -6,7 +6,7 @@ class tixys_backend
 
     private $api_base = 'https://tixo.net/api/v1/StationSearch?request=%1$s&locale=%2$s';
 
-    private $cache_ttl = 300;
+    private $cache_ttl = 600;
 
     public function __construct(stdClass $settings)
     {
@@ -57,9 +57,8 @@ class tixys_backend
             else                    $request->onlyStartStations = true;
 
             $request = urlencode(json_encode($request));
-            $response = file_get_contents(sprintf($this->api_base, $request, get_locale()));
-
-            $response = json_decode($response);
+            $response = wp_remote_get(sprintf($this->api_base, $request, get_locale()));
+            $response = json_decode($response['body']);
 
             if (!$response || !is_object($response) || !isset($response->success) || $response->success !== true)
                 throw new \Exception("Failed loading data.");

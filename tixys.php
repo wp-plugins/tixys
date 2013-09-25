@@ -108,7 +108,7 @@ function tixys_generate_form($attr, $content=null, $code="")
         {
             wp_enqueue_script('jquery-ui-datepicker');
             $ui = $wp_scripts->query('jquery-ui-core');
-            $cssurl = "//ajax.aspnetcdn.com/ajax/jquery.ui/{$ui->ver}/themes/smoothness/jquery-ui.css";
+            $cssurl = (is_ssl() ? 'https' : 'http') . "://ajax.aspnetcdn.com/ajax/jquery.ui/{$ui->ver}/themes/smoothness/jquery-ui.css";
             wp_enqueue_style('tixys-jquery-ui-smoothness', $cssurl, false, $ui->ver);
         }
 
