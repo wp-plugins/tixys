@@ -121,8 +121,8 @@ function tixys_generate_form($attr, $content=null, $code="")
                     var Tx = { config : {
                         site        : %s,
                         locale      : '%s',
-                        urlBase     : 'https://tixo.net/%s',
-                        apiBase     : 'https://tixo.net/api/v1'
+                        urlBase     : 'https://www.tixys.com/%s',
+                        apiBase     : 'https://www.tixys.com/api/v1'
                     }};
                 /* ]]> */</script>",
                 $options->site,

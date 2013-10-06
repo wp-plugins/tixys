@@ -4,7 +4,7 @@ class tixys_backend
 {
     private $settings;
 
-    private $api_base = 'https://tixo.net/api/v1/StationSearch?request=%1$s&locale=%2$s';
+    private $api_base = 'https://www.tixys.com/api/v1/StationSearch?request=%1$s&locale=%2$s';
 
     private $cache_ttl = 600;
 
