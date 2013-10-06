@@ -3,7 +3,7 @@ Contributors: mastermind
 Tags: travel, booking, tickets, bus, coach, transportation
 Requires at least: 3.4.2
 Tested up to: 3.6.1
-Stable tag: 0.1
+Stable tag: 0.1.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
