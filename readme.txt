@@ -44,5 +44,9 @@ Apart from the configurational parameters and CSS styling, *no*. Of course, you 
 
 == Changelog ==
 
+= 0.1.1 =
+* Migration to www.tixys.com
+
+
 = 0.1 =
 * Initial release
