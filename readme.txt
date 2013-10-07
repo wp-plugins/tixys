@@ -23,11 +23,11 @@ This is very handy for companies who have a Tixys shop and want to embed a booki
 4. Use the shortcode `[tixysform]` to embed a form.
 
 The `[tixysform]` shortcode accepts a number of parameters, all of which are optional:
-* `target` (values: `same`, `new`. default: `same`): Open the Tixys page in the same or a new window.
-* `datepicker` (values: `true`, `false`. default: `false`): Add a datepicker to allow selecting a journey date. If no datepicker is to be embedded, the current day will be used.
-* `affiliate` (value: a user ID. default: `null`): Pass an affiliate ID, as provided by the shop owner. This can be used for tracking where customers came from and what turnovers they generated.
-* `from` (value: a station ID. default: `null`): Pass a station ID, to have it preselected as starting point, and the select field hidden.
-* `to` (value: a station ID. default: `null`): Pass a station ID, to have it preselected as destination, and the select field hidden.
+* *target* (values: `same`, `new`. default: `same`): Open the Tixys page in the same or a new window.
+* *datepicker* (values: `true`, `false`. default: `false`): Add a datepicker to allow selecting a journey date. If no datepicker is to be embedded, the current day will be used.
+* *affiliate* (value: a user ID. default: `null`): Pass an affiliate ID, as provided by the shop owner. This can be used for tracking where customers came from and what turnovers they generated.
+* *from* (value: a station ID. default: `null`): Pass a station ID, to have it preselected as starting point, and the select field hidden.
+* *to* (value: a station ID. default: `null`): Pass a station ID, to have it preselected as destination, and the select field hidden.
 
 == Frequently Asked Questions ==
 
