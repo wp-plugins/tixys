@@ -3,7 +3,7 @@
  * Plugin Name: Tixys Widget
  * Plugin URI: http://www.tixys.com/
  * Description: This plugin embeds a Tixys search widget into a WP page.
- * Version: 0.1
+ * Version: 0.1.1
  * Author: Alex Günsche
  * License: MIT
  */
@@ -22,7 +22,6 @@ function tixys_init()
 {
     load_plugin_textdomain('tixys', false, 'tixys');
 }
-
 
 function tixys_adminpage()
 {
