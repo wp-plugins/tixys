@@ -10,12 +10,12 @@
 
 function tixys_activate()
 {
-    $settings = (object)array(
+    $options = (object)array(
         'site' => null,
         'path' => null
     );
 
-    add_option('tixys_config', $settings);
+    add_option('tixys_options', $options);
 }
 
 function tixys_init()
@@ -41,7 +41,7 @@ function tixys_process_settings()
             preg_match('|^[a-z][a-z0-9]+$|', $_POST['tixys_path']) &&
             strlen($_POST['tixys_path']) >= 4)
         {
-            $tixys_options = get_option('tixys_options');
+            $tixys_options = get_option('tixys_options') ?: new \stdClass();
             $tixys_options->site = (int)$_POST['tixys_site'];
             $tixys_options->path = $_POST['tixys_path'];
 
