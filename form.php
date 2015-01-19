@@ -1,7 +1,6 @@
 <?php
     if (!function_exists('tixys_generate_form')) // prevent direct calls
         die('You should not be here. Go away.');
-
 ?>
 
 <form data-txform='<?php echo $formId ?>' class='tixys-search' method='get' action=''<?php if ($target === 'new') echo " target='_blank'" ?>>
@@ -71,7 +70,6 @@
                 <input type='hidden' name='to' value='<?php echo $to ?>' />
                 <?php endif ?>
 
-                <input type='hidden' name='st' value='1' />
                 <input type='submit' class='btn dark' value='<?php _e('Search rides and book a ticket »', 'tixys') ?>' />
             </td>
         </tr>

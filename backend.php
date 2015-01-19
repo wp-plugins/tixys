@@ -4,7 +4,7 @@ class tixys_backend
 {
     private $settings;
 
-    private $api_base = 'https://www.tixys.com/api/v1/StationSearch?request=%1$s&locale=%2$s';
+    private $api_base = 'https://www.tixys.com/api/v1/StationSearch.json?request=%1$s&locale=%2$s';
 
     private $cache_ttl = 600;
 
@@ -49,7 +49,11 @@ class tixys_backend
         {
             $request = (object)array(
                 'Site' => $this->settings->site,
-                'orderBy' => 'name'
+                'orderBy' => 'name',
+                'onlyStartStations' => null,
+                'onlyEndStations' => null,
+                'StationFrom' => null,
+                'StationTo' => null
             );
 
             if ($type === 'from')   $request->StationFrom = $id;
