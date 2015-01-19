@@ -2,8 +2,8 @@
 Contributors: mastermind
 Tags: travel, booking, tickets, bus, coach, transportation
 Requires at least: 3.4.2
-Tested up to: 3.6.1
-Stable tag: 0.1.1
+Tested up to: 4.1
+Stable tag: 0.1.2
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -43,6 +43,9 @@ Simple.
 Apart from the configurational parameters and CSS styling, *no*. Of course, you could modify the source code. But this is strongly discouraged, because new updates will overwrite your modifications. And, you are advised to update the plugin as soon as new versions are available, because there may be updates to the Tixys API, which the new plugin version reflects.
 
 == Changelog ==
+
+= 0.1.2 =
+* Various fixes to reflect API changes
 
 = 0.1.1 =
 * Migration to www.tixys.com
